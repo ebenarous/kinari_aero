@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
         
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight fade-in-up delay-100">
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">The Co-Pilot for</span> <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-b from-gray-300 to-gray-700">Precision Builders.</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-b from-gray-300 to-gray-700">Aerospace Technicians.</span>
         </h1>
         
         <p className="text-lg md:text-xl text-zinc-400 max-w-2xl fade-in-up delay-200 leading-relaxed">
