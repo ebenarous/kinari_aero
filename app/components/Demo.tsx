@@ -14,7 +14,7 @@ const Demo: React.FC = () => {
             <br />
             Flawless execution.
             <br />
-            <span className="text-zinc-500">See it in action.</span>
+            <span className="bg-gradient-to-r from-blue-200 to-slate-400 text-transparent bg-clip-text">See it in action.</span>
           </h2>
           
           <div className="text-lg text-zinc-400 leading-relaxed space-y-4">
