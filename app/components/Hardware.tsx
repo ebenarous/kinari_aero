@@ -30,7 +30,7 @@ const Hardware: React.FC = () => {
       icon: <BatteryFull className="w-6 h-6 text-blue-400" />,
       title: "Battery",
       details: [
-        "Up to 8 hours typical use",
+        "Up to 3 hours typical use",
         "Up to 48 hours with case",
         "Rapid charging"
       ]

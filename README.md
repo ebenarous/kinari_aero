@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## THIS ONE IS FOR AERO MRO
 
+Run locally with:
+```
+npm install lucide-react
+npm run dev
+```
+
 ## Getting Started
 
 First, run the development server:

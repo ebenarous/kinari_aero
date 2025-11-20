@@ -39,7 +39,7 @@ const Deploy: React.FC = () => {
         </h2>
         
         <p className="text-xl text-zinc-400 leading-relaxed">
-          Schedule a call to learn more, and find a time to see a live demo at your facility.
+          Schedule a call to learn more, and find a time to see a <br /> live demo at your facility.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
