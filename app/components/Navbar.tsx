@@ -33,18 +33,18 @@ const Navbar: React.FC = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <a 
-            href="#hardware" 
-            onClick={(e) => scrollToSection(e, 'hardware')}
-            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
-          >
-            Product
-          </a>
-          <a 
             href="#capabilities" 
             onClick={(e) => scrollToSection(e, 'capabilities')}
             className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
           >
             Capabilities
+          </a>
+          <a 
+            href="#hardware" 
+            onClick={(e) => scrollToSection(e, 'hardware')}
+            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
+          >
+            Product
           </a>
           <a 
             href="#demo" 

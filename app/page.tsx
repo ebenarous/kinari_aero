@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar />
       <main className="flex flex-col w-full">
         <Hero />
-        <Hardware />
         <Capabilities />
+        <Hardware />
         <Demo />
         <Deploy />
       </main>

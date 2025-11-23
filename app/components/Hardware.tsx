@@ -47,7 +47,7 @@ const Hardware: React.FC = () => {
   ];
 
   return (
-    <section id="hardware" className="py-24 bg-zinc-950 border-t border-white/5">
+    <section id="hardware" className="py-24 bg-black border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Industrial Grade Wearables</h2>
@@ -71,7 +71,7 @@ const Hardware: React.FC = () => {
           {/* Right Column: 2x2 Spec Grid */}
           <div className="grid md:grid-cols-2 gap-6">
             {features.map((feature, idx) => (
-              <div key={idx} className="bg-zinc-900/50 border border-white/5 p-6 rounded-xl hover:bg-white/5 transition-colors duration-300">
+              <div key={idx} className="bg-zinc-900/50 border border-white/5 p-6 rounded-xl hover:bg-white/8 transition-colors duration-300">
                 <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center mb-4 border border-blue-500/20">
                   {feature.icon}
                 </div>

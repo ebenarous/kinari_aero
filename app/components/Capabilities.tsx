@@ -5,7 +5,7 @@ import { FileText, Eye, ClipboardCheck } from 'lucide-react';
 
 const Capabilities: React.FC = () => {
   return (
-    <section id="capabilities" className="py-24 bg-black">
+    <section id="capabilities" className="py-24 bg-zinc-950">
       <div className="max-w-7xl mx-auto px-6">
         
         <div className="mb-16 text-center">
