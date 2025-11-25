@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Developing the next generation of wearable AI. Real-time audiovisual intelligence for complex MRO & assembly operations.",
 };
 
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,6 +26,8 @@ export default function RootLayout({
         className={`${inter.variable} antialiased`}
       >
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
